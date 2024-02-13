@@ -21,8 +21,7 @@ namespace MaxiShop.Application
             services.AddScoped<ICategoryService, CategoryServices>();
             services.AddScoped<IBrandService, BrandService>();
             services.AddScoped<IProductService, ProductService>();
-
-
+            ///First Change
             return services;
         }
     }
